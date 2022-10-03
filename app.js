@@ -13,11 +13,7 @@ const gifs = require('./routes/Gifs')
 
 var app = express();
 
-app.use(cors(
-  {
-    origin: "https://ccarver-giphy-app.netlify.app/"
-  }
-))
+app.use(cors())
 
 
 
